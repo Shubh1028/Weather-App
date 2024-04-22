@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.weather-wrapper {
+  width: 500px;
+  margin: auto;
+  border: 2px solid blanchedalmond;
+  margin-top: 2rem;
+  background-color: rgb(21, 111, 171);
+  border-radius: 10px;
+}
+.header-wrapper {
+  display: flex;
+  margin: 0.6rem 1rem;
+  input {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+  }
+  button {
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(255, 226, 41);
+  }
+}
+.city-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.city-temperature {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.humidity-wind-wrapper {
+  display: flex;
+  margin: 2rem 0rem;
+  color: #ffffff;
+  .humidity-wrapper {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    div {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-left: 1rem;
+    }
+  }
+}
